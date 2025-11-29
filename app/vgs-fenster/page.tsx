@@ -33,7 +33,7 @@ export default function VGSFensterPage() {
                 </h1>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-red-400 mt-0">⚠️ UPOZORENJE</h2>
                         <p className="text-white/90 mb-0">
                             VGS Fenster j.d.o.o. je firma povezana s Tamarom Vukmanović i Draženom Filjević em, korištena za prevare.
@@ -42,7 +42,7 @@ export default function VGSFensterPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Podaci o Firmi</h2>
-                        <div className="bg-white/5 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-zinc-900 p-6 rounded-lg border border-green-500/30">
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li><strong className="text-green-400">Naziv:</strong> VGS Fenster j.d.o.o.</li>
                                 <li><strong className="text-green-400">Adresa:</strong> Donjozelinska ulica 124, Donja Zelina</li>
@@ -64,11 +64,11 @@ export default function VGSFensterPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Osobe i Firme</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/tamara-vukmanovic" className="block p-4 bg-red-900/50 rounded-lg border border-red-500/30">
+                            <Link href="/tamara-vukmanovic" className="block p-4 bg-red-950 rounded-lg border border-red-500/30">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">👤 Tamara Vukmanović</h3>
                                 <p className="text-white/70">Povezana osoba</p>
                             </Link>
-                            <Link href="/unitec-international" className="block p-4 bg-yellow-900/50 rounded-lg border border-yellow-500/30">
+                            <Link href="/unitec-international" className="block p-4 bg-yellow-950 rounded-lg border border-yellow-500/30">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">🏢 UNITEC INTERNATIONAL</h3>
                                 <p className="text-white/70">Ista adresa</p>
                             </Link>

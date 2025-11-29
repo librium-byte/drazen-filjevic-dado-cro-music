@@ -33,7 +33,7 @@ export default function VrhunskaGradjevinskaStolarijaPage() {
                 </h1>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-red-400 mt-0">⚠️ FIRMA U STEČAJU</h2>
                         <p className="text-white/90 mb-0">
                             VRHUNSKA GRAĐEVINSKA STOLARIJA j.d.o.o. je u stečaju nakon brojnih prevara Dražena Filjevića.
@@ -42,7 +42,7 @@ export default function VrhunskaGradjevinskaStolarijaPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Podaci o Firmi</h2>
-                        <div className="bg-white/5 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-zinc-900 p-6 rounded-lg border border-green-500/30">
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li><strong className="text-green-400">Naziv:</strong> VRHUNSKA GRAĐEVINSKA STOLARIJA j.d.o.o.</li>
                                 <li><strong className="text-green-400">Adresa:</strong> Zagrebačka cesta 68, Goričica</li>
@@ -63,7 +63,7 @@ export default function VrhunskaGradjevinskaStolarijaPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Obrazac Ponašanja</h2>
-                        <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                        <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                             <ol className="space-y-3 text-white/80 text-lg list-decimal list-inside">
                                 <li>Osnivanje firme s obećavajućim nazivom</li>
                                 <li>Privlačenje kupaca niskim cijenama</li>
@@ -80,16 +80,16 @@ export default function VrhunskaGradjevinskaStolarijaPage() {
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Firme Koje su Uslijedile</h2>
                         <p className="text-white/80 mb-4">Nakon stečaja VGS, Filjević je nastavio kroz:</p>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/unitec-international" className="block p-4 bg-yellow-900/50 rounded-lg border border-yellow-500/30">
+                            <Link href="/unitec-international" className="block p-4 bg-yellow-950 rounded-lg border border-yellow-500/30">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">UNITEC INTERNATIONAL</h3>
                             </Link>
-                            <Link href="/porta-nova" className="block p-4 bg-yellow-900/50 rounded-lg border border-yellow-500/30">
+                            <Link href="/porta-nova" className="block p-4 bg-yellow-950 rounded-lg border border-yellow-500/30">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">PORTA NOVA</h3>
                             </Link>
-                            <Link href="/thermo-fen-plast" className="block p-4 bg-yellow-900/50 rounded-lg border border-yellow-500/30">
+                            <Link href="/thermo-fen-plast" className="block p-4 bg-yellow-950 rounded-lg border border-yellow-500/30">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">THERMO FEN PLAST</h3>
                             </Link>
-                            <Link href="/vgs-fenster" className="block p-4 bg-yellow-900/50 rounded-lg border border-yellow-500/30">
+                            <Link href="/vgs-fenster" className="block p-4 bg-yellow-950 rounded-lg border border-yellow-500/30">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">VGS Fenster</h3>
                             </Link>
                         </div>

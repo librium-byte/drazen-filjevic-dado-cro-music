@@ -38,7 +38,7 @@ export default function TamaraVukmanovicPage() {
                 </div>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-red-400 mt-0">⚠️ UPOZORENJE</h2>
                         <p className="text-white/90 mb-0">
                             Tamara Vukmanović je suradnica Dražena Filjevića u prijevarama kroz firmu VGS Fenster j.d.o.o.
@@ -47,7 +47,7 @@ export default function TamaraVukmanovicPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Osnov ni Podaci</h2>
-                        <div className="bg-white/5 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-zinc-900 p-6 rounded-lg border border-green-500/30">
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li><strong className="text-green-400">Ime i Prezime:</strong> Tamara Vukmanović</li>
                                 <li><strong className="text-green-400">Firma:</strong> VGS Fenster j.d.o.o.</li>
@@ -63,7 +63,7 @@ export default function TamaraVukmanovicPage() {
                             VGS Fenster j.d.o.o. je jedna od firmi korištenih u mreži prijevara Dražena Filjevića.
                             Firma se bavila PVC stolarijom i bila je dio šire sheme prevara.
                         </p>
-                        <div className="bg-yellow-500/10 p-6 rounded-lg border border-yellow-500/30">
+                        <div className="bg-yellow-950 p-6 rounded-lg border border-yellow-500/30">
                             <h3 className="text-xl font-bold text-yellow-400 mb-3">Karakteristike Firme:</h3>
                             <ul className="space-y-2 text-white/80">
                                 <li>• Sjedište: Donjozelinska ulica 124, Donja Zelina</li>
@@ -80,7 +80,7 @@ export default function TamaraVukmanovicPage() {
                             Tamara Vukmanović je bila povezana s Draženom Filjević em kroz VGS Fenster j.d.o.o.,
                             jednu od brojnih firmi korištenih za izvođenje prijevara u PVC industriji.
                         </p>
-                        <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                        <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                             <h3 className="text-xl font-bold text-red-400 mb-3">Modus Operandi:</h3>
                             <ul className="space-y-2 text-white/80">
                                 <li>• Korištenje firme VGS Fenster za privlačenje kupaca</li>
@@ -106,7 +106,7 @@ export default function TamaraVukmanovicPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Kako Se Zaštititi?</h2>
-                        <div className="bg-green-500/10 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-green-950 p-6 rounded-lg border border-green-500/30">
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li>✓ Provjerite povezanost firme s poznatim prevarantima</li>
                                 <li>✓ Tražite reference od prethodnih kupaca</li>
@@ -121,26 +121,26 @@ export default function TamaraVukmanovicPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Stranice</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/drazen-filjevic" className="block p-4 bg-white/5 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
+                            <Link href="/drazen-filjevic" className="block p-4 bg-zinc-900 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
                                 <h3 className="text-xl font-bold text-green-400 mb-2">Dražen Filjević</h3>
                                 <p className="text-white/70">Glavni prevarant</p>
                             </Link>
-                            <Link href="/vgs-fenster" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/vgs-fenster" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">VGS Fenster j.d.o.o.</h3>
                                 <p className="text-white/70">Informacije o firmi</p>
                             </Link>
-                            <Link href="/prevara" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/prevara" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Prevara</h3>
                                 <p className="text-white/70">Kako se zaštititi</p>
                             </Link>
-                            <Link href="/damir-iharosi" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/damir-iharosi" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Damir Iharoši</h3>
                                 <p className="text-white/70">Drugi suradnik</p>
                             </Link>
                         </div>
                     </section>
 
-                    <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mt-12">
+                    <div className="bg-yellow-950 border border-yellow-500/30 rounded-lg p-6 mt-12">
                         <p className="text-white/90 text-center text-xl font-bold mb-0">
                             PODIJELITE - UPOZORITE DRUGE
                         </p>

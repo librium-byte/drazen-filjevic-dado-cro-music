@@ -38,7 +38,7 @@ export default function PVCInstalacijePage() {
                 </div>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-red-400 mt-0">⚠️ UPOZORENJE</h2>
                         <p className="text-white/90 mb-0">
                             Kvaliteta instalacije je jednako važna kao kvaliteta PVC stolarije.
@@ -53,16 +53,16 @@ export default function PVCInstalacijePage() {
                             Čak i najkvalitetniji PVC prozori i vrata neće funkcionirati pravilno bez stručne instalacije:
                         </p>
                         <ul className="space-y-3 text-white/80 text-lg">
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 🌡️ <strong className="text-yellow-400">Toplinska izolacija</strong> - Loša instalacija = gubitak topline i visoki računi
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 💧 <strong className="text-yellow-400">Vodonepropusnost</strong> - Nepravilna ugradnja = curenje vode i vlaga
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 🔊 <strong className="text-yellow-400">Zvučna izolacija</strong> - Loša montaža = buka prodire
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 🔒 <strong className="text-yellow-400">Sigurnost</strong> - Nepravilna ugradnja vrata = smanjena sigurnost
                             </li>
                         </ul>
@@ -71,7 +71,7 @@ export default function PVCInstalacijePage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Tipične Prevare s Instalacijama</h2>
                         <div className="space-y-4">
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">1. Nekvalitetna Montaža</h3>
                                 <p className="text-white/80 text-lg mb-3">Najčešći problem:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -80,7 +80,7 @@ export default function PVCInstalacijePage() {
                                     <li>• Nepravilno postavljene podloške - prozori nisu vodoravni</li>
                                     <li>• Rezultat: propuštanje, kondenzacija, problemi s otvaranjem</li>
                                 </ul>
-                                <div className="mt-4 p-4 bg-red-500/20 rounded">
+                                <div className="mt-4 p-4 bg-red-950 rounded">
                                     <strong className="text-red-400">Primjer - Filjević:</strong>
                                     <p className="text-white/80 mt-2">
                                         Kada je Filjević ipak isporučio prozore (rijetko), instalacija je bila katastrofalna.
@@ -89,7 +89,7 @@ export default function PVCInstalacijePage() {
                                 </div>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">2. Nepotpuna Instalacija</h3>
                                 <p className="text-white/80 text-lg mb-3">Ostavlja posao nedovršen:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -100,7 +100,7 @@ export default function PVCInstalacijePage() {
                                 </ul>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">3. Oštećenje Prilikom Ugradnje</h3>
                                 <p className="text-white/80 text-lg mb-3">Neopreznost ili namjera:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -111,7 +111,7 @@ export default function PVCInstalacijePage() {
                                 </ul>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">4. Nestručna Ekipa</h3>
                                 <p className="text-white/80 text-lg mb-3">Nekvalificirani radnici:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -126,7 +126,7 @@ export default function PVCInstalacijePage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Pravilna Instalacija - Što Očekivati?</h2>
-                        <div className="bg-green-500/10 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-green-950 p-6 rounded-lg border border-green-500/30">
                             <h3 className="text-xl font-bold text-green-400 mb-4">✓ Koraci Profesionalne Instalacije:</h3>
                             <ol className="space-y-3 text-white/80 text-lg list-decimal list-inside">
                                 <li><strong>Priprema</strong> - Zaštita prostora, priprema alata i materijala</li>
@@ -145,7 +145,7 @@ export default function PVCInstalacijePage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Kako Provjeriti Kvalitetu Instalacije?</h2>
-                        <div className="bg-yellow-500/10 p-6 rounded-lg border border-yellow-500/30">
+                        <div className="bg-yellow-950 p-6 rounded-lg border border-yellow-500/30">
                             <h3 className="text-xl font-bold text-yellow-400 mb-4">🔍 Kontrolna Lista Nakon Ugradnje:</h3>
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li className="flex items-start gap-3">
@@ -183,21 +183,21 @@ export default function PVCInstalacijePage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Testovi Nakon Instalacije</h2>
                         <div className="space-y-4">
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-green-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-green-500">
                                 <h3 className="text-xl font-bold text-green-400 mb-2">Test Papira</h3>
                                 <p className="text-white/80">
                                     Stavite list papira između okvira i krila, zatvorite prozor/vrata.
                                     Pokušajte izvući papir - ako ide lako, brtvljenje nije dobro.
                                 </p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-green-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-green-500">
                                 <h3 className="text-xl font-bold text-green-400 mb-2">Test Vode</h3>
                                 <p className="text-white/80">
                                     Za vrata i prozore na kiši izloženim stranama - provjerite curenje vode
                                     nakon prve kiše ili simulirajte kišu s crijevom.
                                 </p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-green-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-green-500">
                                 <h3 className="text-xl font-bold text-green-400 mb-2">Test Propuha</h3>
                                 <p className="text-white/80">
                                     Upaljenom svijećom ili upaljačem provjerite ima li propuha oko okvira.
@@ -208,7 +208,7 @@ export default function PVCInstalacijePage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Crvene Zastavice Kod Instalacije</h2>
-                        <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                        <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                             <h3 className="text-xl font-bold text-red-400 mb-4">🚩 OPREZ AKO:</h3>
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li>• Instalacija traje sumnjivo kratko (profesionalna ugradnja traje)</li>
@@ -225,7 +225,7 @@ export default function PVCInstalacijePage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Garancija na Instalaciju</h2>
-                        <div className="bg-white/5 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-zinc-900 p-6 rounded-lg border border-green-500/30">
                             <p className="text-white/80 text-lg mb-4">
                                 Profesionalni izvođači nude garanciju na instalaciju:
                             </p>
@@ -245,26 +245,26 @@ export default function PVCInstalacijePage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Stranice</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/pvc-prozori" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/pvc-prozori" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">PVC Prozori</h3>
                                 <p className="text-white/70">Prevare s PVC prozorima</p>
                             </Link>
-                            <Link href="/pvc-vrata" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/pvc-vrata" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">PVC Vrata</h3>
                                 <p className="text-white/70">Prevare s PVC vratima</p>
                             </Link>
-                            <Link href="/drazen-filjevic-prevara" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/drazen-filjevic-prevara" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Dražen Filjević Prevara</h3>
                                 <p className="text-white/70">Dokumentirane prevare</p>
                             </Link>
-                            <Link href="/prevara" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/prevara" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Prevara</h3>
                                 <p className="text-white/70">Opće informacije</p>
                             </Link>
                         </div>
                     </section>
 
-                    <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mt-12">
+                    <div className="bg-yellow-950 border border-yellow-500/30 rounded-lg p-6 mt-12">
                         <p className="text-white/90 text-center text-xl font-bold mb-2">
                             KVALITETNA INSTALACIJA = DUGOTRAJNA ULAGANJA
                         </p>

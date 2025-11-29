@@ -1,46 +1,70 @@
-# 🚨 Dražen Filjević - Dado Cro Music - Prevarant & Prijevara u PVC Stolariji
+# 🤡 Dražen Filjević - The Man, The Myth, The PVC Legend (Prevarant)
 
-**Službena stranica:** [https://dadocromusic.crnalista.online](https://dadocromusic.crnalista.online)
+**Službena fan stranica (i crna lista):** [https://dadocromusic.crnalista.online](https://dadocromusic.crnalista.online)
 
-## ⚠️ O Ovom Projektu (About This Project)
+![Dražen Filjević - Dado Cro Music](https://dadocromusic.crnalista.online/drazen-cro-dado-music.png)
 
-Ovaj repozitorij sadrži izvorni kod za web stranicu posvećenu razotkrivanju **Dražena Filjevića**, poznatog i kao **Dado Cro Music**. Cilj ovog projekta je informirati javnost i potencijalne žrtve o dugogodišnjim prijevarama vezanim uz **PVC stolariju**, građevinske radove i lažne online identitete.
+## 🎭 Tko je ovaj "Poduzetnik"?
 
-Stranica dokumentira mrežu firmi i suradnika koje Dražen Filjević koristi za obmanjivanje kupaca, uzimanje avansa i neisporučivanje plaćenih proizvoda.
+Upoznajte **Dražena Filjevića**, čovjeka s više lica nego PVC prozor komora! Poznat i kao **Dado Cro Music** na estradi (ili barem u svojoj glavi), ovaj svestrani umjetnik nije samo majstor za glazbu, već i za nestajanje s vašim novcem. 💸
 
-## 🔍 Ključne Riječi (Keywords)
+Ako tražite **PVC stolariju**, a želite dobiti **NIŠTA** za svoje novce, na pravom ste mjestu! Dražen je specijalist za uzimanje avansa i igranje skrivača.
 
-Ovaj projekt je optimiziran za sljedeće pojmove kako bi se osigurala maksimalna vidljivost na tražilicama i upozorilo što veći broj ljudi:
+### 📸 Galerija "Zadovoljnih" Trenutaka
 
-*   **Dražen Filjević**
-*   **Dado Cro Music**
-*   **Prevarant**
-*   **Prijevara**
-*   **PVC Stolarija Prevara**
-*   **PVC Prozori i Vrata**
-*   **Građevinske Prevare**
-*   **Crna Lista Poslodavaca i Izvođača**
+Evo ga, naš Dado, u elementu. Ponekad pjeva, ponekad prodaje maglu (i nepostojeće prozore).
 
-## 🏢 Povezane Firme i Suradnici (Affiliated Companies & Accomplices)
+| Dado u akciji | Još malo Dade |
+| :---: | :---: |
+| ![Dražen Filjević](https://dadocromusic.crnalista.online/drazen%20filjevic2.JPG) | ![Dado Cro Music](https://dadocromusic.crnalista.online/drazenfiljevic3.JPG) |
 
-Naša istraga i prikupljeni dokazi povezuju sljedeće subjekte s prijevarama:
+## 🏆 Njegova "Uspješna" Poduzeća (Firme za jednokratnu upotrebu)
 
-*   **UNITEC INTERNATIONAL j.d.o.o.**
-*   **VGS Fenster j.d.o.o.**
-*   **VRHUNSKA GRAĐEVINSKA STOLARIJA j.d.o.o.** (u stečaju)
-*   **PORTA NOVA d.o.o.**
-*   **THERMO FEN PLAST j.d.o.o.**
+Dražen voli otvarati firme kao što mi ostali otvaramo čips. Kad jedna "zagori" (čitaj: blokada računa), otvara se nova!
+
+*   **UNITEC INTERNATIONAL j.d.o.o.** - *Internacionalna prevara, lokalna cijena.*
+*   **VGS Fenster j.d.o.o.** - *Prozori koji gledaju u prazno.*
+*   **VRHUNSKA GRAĐEVINSKA STOLARIJA j.d.o.o.** (u stečaju) - *Vrhunska samo u imenu.*
+*   **PORTA NOVA d.o.o.** - *Vrata prema bankrotu.*
+*   **THERMO FEN PLAST j.d.o.o.** - *Toplinska izolacija vašeg novčanika (da ne izgori od previše novca).*
+
+### 🤝 Suradnici u Zločinu
+
+Jer svaki Batman treba svog Robina (ili u ovom slučaju, svaki prevarant svoje pomagače):
 *   **Tamara Vukmanović**
 *   **Damir Iharoši**
 
-## 🛑 Kako Prevara Funkcionira?
+## ⭐️ "Testimonials" - Što kažu "sretni" kupci?
 
-Dražen Filjević (Dado Cro Music) često mijenja imena firmi i koristi lažne profile na društvenim mrežama kako bi privukao kupce niskim cijenama PVC stolarije. Nakon uplate avansa, komunikacija prestaje, a roba se nikada ne isporučuje ili je iznimno loše kvalitete.
+Pogledajte ove predivne recenzije i dokaze o "kvaliteti".
 
-## 📢 Podijelite Istinu
+![VGS Fenster Prevara](https://dadocromusic.crnalista.online/vgsfenster2.JPG)
+*Slika: Umjetnička instalacija "Gdje su moji prozori?"*
 
-Pomozite nam da zaustavimo ove prijevare. Posjetite [dadocromusic.crnalista.online](https://dadocromusic.crnalista.online) i podijelite informacije.
+![Oglas na Trebam.hr](https://dadocromusic.crnalista.online/trebamhr-thermoplast-drazenfiljevic.PNG)
+*Slika: Lov na nove žrtve na Trebam.hr*
+
+## 📺 Video Kutak
+
+Ako slika govori tisuću riječi, video govori... pa, pogledajte sami kako majstor operira.
+
+[![Dražen Filjević Video](https://img.youtube.com/vi/pc35vPmWZGA/0.jpg)](https://www.youtube.com/watch?v=pc35vPmWZGA)
+
+## 📰 Mediji o Dadi (Wall of Shame)
+
+Nije da se hvalimo, ali čovjek je slavan!
+*   [Provjereno: Prevarant s PVC stolarijom](https://dnevnik.hr/vijesti/hrvatska/provjereno-donosi-pricu-o-prevarantu-s-pvc-stolarijom---638827.html) (Primjer linka)
+*   [Crna Lista: Iskustva građana](https://www.crnalista.hr)
+
+## 🚀 SEO Keywords (Da nas Google voli kao što Dado voli tuđe pare)
+
+*   **Dražen Filjević** (Glavni glumac)
+*   **Dado Cro Music** (Umjetničko ime)
+*   **Prevarant** (Zanimanje)
+*   **Prijevara** (Hobi)
+*   **PVC Stolarija Prevara** (Specijalnost)
+*   **PVC Prozori i Vrata** (Ono što nećete dobiti)
 
 ---
 
-**Napomena:** Sve informacije na ovoj stranici i u ovom repozitoriju temeljene su na javno dostupnim podacima, sudskim dokumentima, novinskim člancima i svjedočanstvima žrtava.
+**Disclaimer:** Ova stranica je satirično-edukativnog karaktera. Svi navodi su bazirani na stvarnim iskustvima prevarenih ljudi i javno dostupnim podacima. Cilj je upozoriti javnost da ne postanu iduća "ovca za šišanje". 🐑✂️

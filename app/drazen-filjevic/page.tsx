@@ -46,7 +46,7 @@ export default function DrazenFiljevicPage() {
                 </div>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-red-400 mt-0">⚠️ UPOZORENJE</h2>
                         <p className="text-white/90 mb-0">
                             Dražen Filjević je dokumentirani prevarant s preko <strong>130 žrtava</strong> i više od <strong>400,000 € ukradenog novca</strong>.
@@ -70,16 +70,16 @@ export default function DrazenFiljevicPage() {
                             Dražen Filjević je tijekom godina osnivao i vodio nekoliko firmi koje su se bavile PVC stolarijom:
                         </p>
                         <ul className="space-y-3 text-white/80 text-lg">
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 <strong className="text-yellow-400">VRHUNSKA GRAĐEVINSKA STOLARIJA j.d.o.o.</strong> - Jedna od prvih firmi kroz koju je provodio prijevare
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 <strong className="text-yellow-400">UNITEC INTERNATIONAL j.d.o.o.</strong> - Firma koja je također korištena za prevare kupaca
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 <strong className="text-yellow-400">PORTA NOVA d.o.o.</strong> - Još jedna firma u nizu koja je služila za prikupljanje avansi
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 <strong className="text-yellow-400">THERMO FEN PLAST j.d.o.o.</strong> - Najnovija firma u nizu prijevara
                             </li>
                         </ul>
@@ -87,7 +87,7 @@ export default function DrazenFiljevicPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Modus Operandi - Kako Vara?</h2>
-                        <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                        <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                             <ol className="space-y-4 text-white/80 text-lg list-decimal list-inside">
                                 <li><strong className="text-red-400">Oglašavanje:</strong> Oglašava se kao "jeftin, brz i pouzdan" izvođač radova</li>
                                 <li><strong className="text-red-400">Kontakt:</strong> Dolazi na teren, mjeri prozore/vrata, daje ponudu</li>
@@ -105,19 +105,19 @@ export default function DrazenFiljevicPage() {
                             Prema novinskim izvještajima i svjedočenjima žrtava, Dražen Filjević je:
                         </p>
                         <div className="grid md:grid-cols-2 gap-4 mb-6">
-                            <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                                 <div className="text-4xl font-bold text-red-400 mb-2">130+</div>
                                 <div className="text-white/80">Prevarenih ljudi</div>
                             </div>
-                            <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                                 <div className="text-4xl font-bold text-red-400 mb-2">400,000+ €</div>
                                 <div className="text-white/80">Ukradeno od žrtava</div>
                             </div>
-                            <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                                 <div className="text-4xl font-bold text-red-400 mb-2">12+</div>
                                 <div className="text-white/80">Različitih firmi</div>
                             </div>
-                            <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                                 <div className="text-4xl font-bold text-red-400 mb-2">20+</div>
                                 <div className="text-white/80">Osuda za prijevaru</div>
                             </div>
@@ -144,7 +144,7 @@ export default function DrazenFiljevicPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Kako Se Zaštititi?</h2>
-                        <div className="bg-green-500/10 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-green-950 p-6 rounded-lg border border-green-500/30">
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li>✓ Provjerite registar sudskih postupaka prije poslovanja</li>
                                 <li>✓ Tražite reference od prethodnih klijenata</li>
@@ -159,26 +159,26 @@ export default function DrazenFiljevicPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Stranice</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/drazen-filjevic-prevara" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/drazen-filjevic-prevara" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Dražen Filjević Prevara</h3>
                                 <p className="text-white/70">Detaljne informacije o prijevarama</p>
                             </Link>
-                            <Link href="/pvc-prozori" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/pvc-prozori" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">PVC Prozori</h3>
                                 <p className="text-white/70">Prijevare s PVC prozorima</p>
                             </Link>
-                            <Link href="/pvc-vrata" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/pvc-vrata" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">PVC Vrata</h3>
                                 <p className="text-white/70">Prijevare s PVC vratima</p>
                             </Link>
-                            <Link href="/dado-cro-music" className="block p-4 bg-white/5 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
+                            <Link href="/dado-cro-music" className="block p-4 bg-zinc-900 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
                                 <h3 className="text-xl font-bold text-green-400 mb-2">Dado Cro Music</h3>
                                 <p className="text-white/70">Informacije o nadimku i online prisutnosti</p>
                             </Link>
                         </div>
                     </section>
 
-                    <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mt-12">
+                    <div className="bg-yellow-950 border border-yellow-500/30 rounded-lg p-6 mt-12">
                         <p className="text-white/90 text-center text-xl font-bold mb-0">
                             PODIJELITE DA DADO NE MOŽE VIŠE VARATI
                         </p>

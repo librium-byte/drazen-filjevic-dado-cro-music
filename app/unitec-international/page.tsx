@@ -33,7 +33,7 @@ export default function UnitecInternationalPage() {
                 </h1>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-red-400 mt-0">⚠️ UPOZORENJE</h2>
                         <p className="text-white/90 mb-0">
                             UNITEC INTERNATIONAL j.d.o.o. je firma korištena od strane Dražena Filjevića za prevare u PVC industriji.
@@ -42,7 +42,7 @@ export default function UnitecInternationalPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Podaci o Firmi</h2>
-                        <div className="bg-white/5 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-zinc-900 p-6 rounded-lg border border-green-500/30">
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li><strong className="text-green-400">Naziv:</strong> UNITEC INTERNATIONAL j.d.o.o.</li>
                                 <li><strong className="text-green-400">Adresa:</strong> Donjozelinska ulica 124</li>
@@ -63,7 +63,7 @@ export default function UnitecInternationalPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Firme na Istoj Adresi</h2>
-                        <div className="bg-yellow-500/10 p-6 rounded-lg border border-yellow-500/30">
+                        <div className="bg-yellow-950 p-6 rounded-lg border border-yellow-500/30">
                             <p className="text-white/80 mb-4">Donjozelinska ulica 124, Donja Zelina:</p>
                             <ul className="space-y-2 text-white/80">
                                 <li>• <Link href="/vgs-fenster" className="text-yellow-400 hover:underline">VGS Fenster j.d.o.o.</Link></li>
@@ -75,11 +75,11 @@ export default function UnitecInternationalPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Stranice</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/drazen-filjevic" className="block p-4 bg-white/5 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
+                            <Link href="/drazen-filjevic" className="block p-4 bg-zinc-900 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
                                 <h3 className="text-xl font-bold text-green-400 mb-2">Dražen Filjević</h3>
                                 <p className="text-white/70">Vlasnik/povezana osoba</p>
                             </Link>
-                            <Link href="/vgs-fenster" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/vgs-fenster" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">VGS Fenster</h3>
                                 <p className="text-white/70">Ista adresa</p>
                             </Link>

@@ -38,7 +38,7 @@ export default function PrevaraPage() {
                 </div>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-yellow-950 border border-yellow-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-yellow-400 mt-0">📚 Edukativni Sadržaj</h2>
                         <p className="text-white/90 mb-0">
                             Ova stranica sadrži opće informacije o prijevarama u građevinskoj industriji,
@@ -64,26 +64,26 @@ export default function PrevaraPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Najčešće Prevare u PVC Industriji</h2>
                         <div className="space-y-4">
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">1. Prevara s Avansom</h3>
                                 <p className="text-white/80">
                                     Izvođač traži visok avans (često 50-100%) navodno za kupnju materijala,
                                     a zatim nestaje bez izvršenja posla.
                                 </p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">2. Zamjena Materijala</h3>
                                 <p className="text-white/80">
                                     Dogovara se kvalitetan materijal, ali se ugrađuje jeftinija, lošija varijanta.
                                 </p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">3. Lažne Garancije</h3>
                                 <p className="text-white/80">
                                     Nudi se garancija koja ne vrijedi jer firma nije ovlašteni distributer ili će uskoro zatvoriti.
                                 </p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">4. Ponavljanje Firmi</h3>
                                 <p className="text-white/80">
                                     Ista osoba otvara nove firme nakon što stara dobije loše recenzije ili tužbe.
@@ -94,7 +94,7 @@ export default function PrevaraPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Crvene Zastavice - Znakovi Upozorenja</h2>
-                        <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                        <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                             <h3 className="text-xl font-bold text-red-400 mb-4">🚩 Budite Oprezni Ako:</h3>
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li className="flex items-start gap-3">
@@ -135,7 +135,7 @@ export default function PrevaraPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Kako Se Zaštititi?</h2>
-                        <div className="bg-green-500/10 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-green-950 p-6 rounded-lg border border-green-500/30">
                             <h3 className="text-xl font-bold text-green-400 mb-4">✓ 10 Koraka Zaštite:</h3>
                             <ol className="space-y-3 text-white/80 text-lg list-decimal list-inside">
                                 <li><strong>Istražite izvođača</strong> - Google pretraga, društvene mreže, forumi</li>
@@ -154,7 +154,7 @@ export default function PrevaraPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Primjer: Dražen Filjević</h2>
-                        <div className="bg-white/5 p-6 rounded-lg border border-yellow-500/30">
+                        <div className="bg-zinc-900 p-6 rounded-lg border border-yellow-500/30">
                             <p className="text-white/80 text-lg mb-4">
                                 Dražen Filjević (poznat kao "dado cro music") je savršen primjer kako prevaranti djeluju:
                             </p>
@@ -174,25 +174,25 @@ export default function PrevaraPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Što Učiniti Ako Ste Prevareni?</h2>
                         <div className="space-y-4">
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-yellow-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-yellow-500">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">Korak 1: Dokumentirajte</h3>
                                 <p className="text-white/80">
                                     Sakupite sve dokaze: ugovore, poruke, e-mailove, dokaze o plaćanju, fotografije.
                                 </p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-yellow-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-yellow-500">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">Korak 2: Prijavite Policiji</h3>
                                 <p className="text-white/80">
                                     Odmah podnesite kaznenu prijavu. Što prije, to bolje.
                                 </p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-yellow-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-yellow-500">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">Korak 3: Kontaktirajte Odvjetnika</h3>
                                 <p className="text-white/80">
                                     Pripremite građansku tužbu za naknadu štete.
                                 </p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-yellow-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-yellow-500">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">Korak 4: Upozorite Druge</h3>
                                 <p className="text-white/80">
                                     Podijelite svoje iskustvo online - Google recenzije, forumi, društvene mreže.
@@ -204,26 +204,26 @@ export default function PrevaraPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Stranice</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/drazen-filjevic-prevara" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/drazen-filjevic-prevara" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Dražen Filjević Prevara</h3>
                                 <p className="text-white/70">Dokumentirani slučajevi</p>
                             </Link>
-                            <Link href="/scam" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/scam" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Scam (English)</h3>
                                 <p className="text-white/70">International warning</p>
                             </Link>
-                            <Link href="/pvc-prozori" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/pvc-prozori" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">PVC Prozori</h3>
                                 <p className="text-white/70">Prevare s prozorima</p>
                             </Link>
-                            <Link href="/pvc-vrata" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/pvc-vrata" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">PVC Vrata</h3>
                                 <p className="text-white/70">Prevare s vratima</p>
                             </Link>
                         </div>
                     </section>
 
-                    <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mt-12">
+                    <div className="bg-yellow-950 border border-yellow-500/30 rounded-lg p-6 mt-12">
                         <p className="text-white/90 text-center text-xl font-bold mb-0">
                             BUDITE INFORMIRANI - ZAŠTITITE SEBE I DRUGE
                         </p>

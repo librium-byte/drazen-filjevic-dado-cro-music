@@ -33,7 +33,7 @@ export default function MusicCroDadoPage() {
                 </h1>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <p className="text-white/90 mb-0">
                             <strong>"music cro dado"</strong> is an alternative online identity used by Dražen Filjević.
                             This is the same person as "dado cro music" - a documented scammer with 130+ victims.
@@ -56,16 +56,16 @@ export default function MusicCroDadoPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">All Known Variations</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <div className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <div className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 <strong className="text-yellow-400">dado cro music</strong> - Most common
                             </div>
-                            <div className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <div className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 <strong className="text-yellow-400">music cro dado</strong> - This variation
                             </div>
-                            <div className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <div className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 <strong className="text-yellow-400">dado music cro</strong> - Another variant
                             </div>
-                            <div className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <div className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 <strong className="text-yellow-400">Dado</strong> - Short form
                             </div>
                         </div>
@@ -74,19 +74,19 @@ export default function MusicCroDadoPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Stranice</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/dado-cro-music" className="block p-4 bg-white/5 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
+                            <Link href="/dado-cro-music" className="block p-4 bg-zinc-900 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
                                 <h3 className="text-xl font-bold text-green-400 mb-2">Dado Cro Music</h3>
                                 <p className="text-white/70">Main online identity</p>
                             </Link>
-                            <Link href="/dado-music-cro" className="block p-4 bg-white/5 rounded-lg border border-blue-500/30 hover:border-blue-400 transition-colors">
+                            <Link href="/dado-music-cro" className="block p-4 bg-zinc-900 rounded-lg border border-blue-500/30 hover:border-blue-400 transition-colors">
                                 <h3 className="text-xl font-bold text-blue-400 mb-2">Dado Music Cro</h3>
                                 <p className="text-white/70">Another variation</p>
                             </Link>
-                            <Link href="/drazen-filjevic" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/drazen-filjevic" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Real Identity</h3>
                                 <p className="text-white/70">Dražen Filjević</p>
                             </Link>
-                            <Link href="/scam" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/scam" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Scam Information</h3>
                                 <p className="text-white/70">How to protect yourself</p>
                             </Link>

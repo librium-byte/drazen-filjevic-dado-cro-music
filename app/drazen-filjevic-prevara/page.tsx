@@ -46,7 +46,7 @@ export default function DrazenFiljevicPrevaraPage() {
                 </div>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-red-400 mt-0">⚠️ DOKUMENTIRANE PRIJEVARE</h2>
                         <p className="text-white/90 mb-0">
                             Ova stranica sadrži dokumentirane informacije o prijevarama Dražena Filjevića,
@@ -57,19 +57,19 @@ export default function DrazenFiljevicPrevaraPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Statistika Prijevara</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30 text-center">
+                            <div className="bg-red-950 p-6 rounded-lg border border-red-500/30 text-center">
                                 <div className="text-5xl font-bold text-red-400 mb-2">130+</div>
                                 <div className="text-white/80 text-lg">Dokumentiranih žrtava</div>
                             </div>
-                            <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30 text-center">
+                            <div className="bg-red-950 p-6 rounded-lg border border-red-500/30 text-center">
                                 <div className="text-5xl font-bold text-red-400 mb-2">400,000+€</div>
                                 <div className="text-white/80 text-lg">Ukradenog novca</div>
                             </div>
-                            <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30 text-center">
+                            <div className="bg-red-950 p-6 rounded-lg border border-red-500/30 text-center">
                                 <div className="text-5xl font-bold text-red-400 mb-2">20+</div>
                                 <div className="text-white/80 text-lg">Sudskih postupaka</div>
                             </div>
-                            <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30 text-center">
+                            <div className="bg-red-950 p-6 rounded-lg border border-red-500/30 text-center">
                                 <div className="text-5xl font-bold text-red-400 mb-2">12+</div>
                                 <div className="text-white/80 text-lg">Različitih firmi</div>
                             </div>
@@ -79,7 +79,7 @@ export default function DrazenFiljevicPrevaraPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Tipovi Prijevara</h2>
                         <div className="space-y-4">
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">1. Prevara s Avansom</h3>
                                 <p className="text-white/80 text-lg mb-3">Najčešći tip prijevare:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -90,7 +90,7 @@ export default function DrazenFiljevicPrevaraPage() {
                                 </ul>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">2. Djelomična Isporuka</h3>
                                 <p className="text-white/80 text-lg mb-3">Sofisticiranija varijanta:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -101,7 +101,7 @@ export default function DrazenFiljevicPrevaraPage() {
                                 </ul>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">3. Loša Kvaliteta</h3>
                                 <p className="text-white/80 text-lg mb-3">Kada ipak isporuči:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -112,7 +112,7 @@ export default function DrazenFiljevicPrevaraPage() {
                                 </ul>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">4. Lažno Predstavljanje</h3>
                                 <p className="text-white/80 text-lg mb-3">Obmana o identitetu:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -128,7 +128,7 @@ export default function DrazenFiljevicPrevaraPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Dokumentirani Slučajevi</h2>
                         <div className="space-y-6">
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-red-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-red-500">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">Slučaj 1: Obitelj iz Rijeke</h3>
                                 <p className="text-white/80 mb-2"><strong>Šteta:</strong> 18,500 €</p>
                                 <p className="text-white/80 mb-2"><strong>Datum:</strong> Ožujak 2022</p>
@@ -139,7 +139,7 @@ export default function DrazenFiljevicPrevaraPage() {
                                 </p>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-red-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-red-500">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">Slučaj 2: Umirovljenica iz Pule</h3>
                                 <p className="text-white/80 mb-2"><strong>Šteta:</strong> 6,200 €</p>
                                 <p className="text-white/80 mb-2"><strong>Datum:</strong> Lipanj 2022</p>
@@ -150,7 +150,7 @@ export default function DrazenFiljevicPrevaraPage() {
                                 </p>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-red-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-red-500">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">Slučaj 3: Poduzetnik iz Zagreba</h3>
                                 <p className="text-white/80 mb-2"><strong>Šteta:</strong> 32,000 €</p>
                                 <p className="text-white/80 mb-2"><strong>Datum:</strong> Rujan 2022</p>
@@ -161,7 +161,7 @@ export default function DrazenFiljevicPrevaraPage() {
                                 </p>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-red-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-red-500">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">Slučaj 4: Zgrada u Rijeci</h3>
                                 <p className="text-white/80 mb-2"><strong>Šteta:</strong> 85,000 €</p>
                                 <p className="text-white/80 mb-2"><strong>Datum:</strong> Studeni 2022</p>
@@ -175,7 +175,7 @@ export default function DrazenFiljevicPrevaraPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Sudski Postupci</h2>
-                        <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                        <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                             <p className="text-white/80 text-lg mb-4">
                                 Prema javno dostupnim sudskim zapisima, protiv Dražena Filjevića vodi se:
                             </p>
@@ -202,7 +202,7 @@ export default function DrazenFiljevicPrevaraPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Kako Se Zaštititi?</h2>
-                        <div className="bg-green-500/10 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-green-950 p-6 rounded-lg border border-green-500/30">
                             <h3 className="text-xl font-bold text-green-400 mb-4">✓ Koraci Zaštite:</h3>
                             <ol className="space-y-3 text-white/80 text-lg list-decimal list-inside">
                                 <li><strong>Provjerite sudski registar</strong> - Tražite ime i OIB izvođača</li>
@@ -219,7 +219,7 @@ export default function DrazenFiljevicPrevaraPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Što Učiniti Ako Ste Prevareni?</h2>
-                        <div className="bg-yellow-500/10 p-6 rounded-lg border border-yellow-500/30">
+                        <div className="bg-yellow-950 p-6 rounded-lg border border-yellow-500/30">
                             <ol className="space-y-3 text-white/80 text-lg list-decimal list-inside">
                                 <li><strong>Prijavite policiji</strong> - Odmah podnesite kaznenu prijavu</li>
                                 <li><strong>Dokumentirajte sve</strong> - Ugovori, poruke, dokazi plaćanja</li>
@@ -234,26 +234,26 @@ export default function DrazenFiljevicPrevaraPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Stranice</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/drazen-filjevic" className="block p-4 bg-white/5 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
+                            <Link href="/drazen-filjevic" className="block p-4 bg-zinc-900 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
                                 <h3 className="text-xl font-bold text-green-400 mb-2">Dražen Filjević</h3>
                                 <p className="text-white/70">Biografija i informacije</p>
                             </Link>
-                            <Link href="/prevara" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/prevara" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Prevara</h3>
                                 <p className="text-white/70">Opće informacije o prijevarama</p>
                             </Link>
-                            <Link href="/pvc-prozori" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/pvc-prozori" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">PVC Prozori</h3>
                                 <p className="text-white/70">Prijevare s prozorima</p>
                             </Link>
-                            <Link href="/fraud" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/fraud" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Fraud (English)</h3>
                                 <p className="text-white/70">International warning</p>
                             </Link>
                         </div>
                     </section>
 
-                    <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mt-12">
+                    <div className="bg-yellow-950 border border-yellow-500/30 rounded-lg p-6 mt-12">
                         <p className="text-white/90 text-center text-xl font-bold mb-2">
                             PODIJELITE DA DADO NE MOŽE VIŠE VARATI
                         </p>

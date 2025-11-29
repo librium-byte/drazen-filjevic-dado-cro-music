@@ -38,7 +38,7 @@ export default function PVCProzoriPage() {
                 </div>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-red-400 mt-0">⚠️ UPOZORENJE</h2>
                         <p className="text-white/90 mb-0">
                             PVC prozori su najčešći predmet prijevara u građevinskoj industriji.
@@ -52,16 +52,16 @@ export default function PVCProzoriPage() {
                             PVC prozori su idealna meta za prevarante jer:
                         </p>
                         <ul className="space-y-3 text-white/80 text-lg">
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 💰 <strong className="text-yellow-400">Visoka vrijednost</strong> - Kompletna zamjena prozora košta 5,000-30,000 €
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 ⏱️ <strong className="text-yellow-400">Dugo vrijeme izrade</strong> - Normalno je čekati 4-8 tjedana
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 📦 <strong className="text-yellow-400">Prilagođena narudžba</strong> - Svaki prozor mjeren po mjeri
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 💳 <strong className="text-yellow-400">Očekivani avans</strong> - Normalno je platiti avans za narudžbu
                             </li>
                         </ul>
@@ -70,7 +70,7 @@ export default function PVCProzoriPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Tipične Prevare s PVC Prozorima</h2>
                         <div className="space-y-4">
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">1. Avans Prevara</h3>
                                 <p className="text-white/80 text-lg mb-3">Najčešća prevara:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -79,7 +79,7 @@ export default function PVCProzoriPage() {
                                     <li>• Nakon primanja novca prestaje odgovarati</li>
                                     <li>• Prozori nikada ne stižu</li>
                                 </ul>
-                                <div className="mt-4 p-4 bg-red-500/20 rounded">
+                                <div className="mt-4 p-4 bg-red-950 rounded">
                                     <strong className="text-red-400">Primjer - Filjević:</strong>
                                     <p className="text-white/80 mt-2">
                                         Obitelj iz Rijeke platila 18,500 € za 12 prozora. Čekali 6 mjeseci,
@@ -88,7 +88,7 @@ export default function PVCProzoriPage() {
                                 </div>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">2. Zamjena Kvalitete</h3>
                                 <p className="text-white/80 text-lg mb-3">Sofisticiranija prevara:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -99,7 +99,7 @@ export default function PVCProzoriPage() {
                                 </ul>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">3. Loša Ugradnja</h3>
                                 <p className="text-white/80 text-lg mb-3">Čak i kada prozori stignu:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -110,7 +110,7 @@ export default function PVCProzoriPage() {
                                 </ul>
                             </div>
 
-                            <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-2xl font-bold text-red-400 mb-3">4. Lažne Garancije</h3>
                                 <p className="text-white/80 text-lg mb-3">Garancija koja ne vrijedi:</p>
                                 <ul className="space-y-2 text-white/80">
@@ -125,16 +125,16 @@ export default function PVCProzoriPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Slučaj: Dražen Filjević i PVC Prozori</h2>
-                        <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                        <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                             <p className="text-white/80 text-lg mb-4">
                                 Dražen Filjević specijalizirao se za prevare s PVC prozorima:
                             </p>
                             <div className="grid md:grid-cols-2 gap-4">
-                                <div className="bg-white/5 p-4 rounded-lg">
+                                <div className="bg-zinc-900 p-4 rounded-lg">
                                     <div className="text-3xl font-bold text-red-400 mb-2">100+</div>
                                     <div className="text-white/80">Žrtava prevara s prozorima</div>
                                 </div>
-                                <div className="bg-white/5 p-4 rounded-lg">
+                                <div className="bg-zinc-900 p-4 rounded-lg">
                                     <div className="text-3xl font-bold text-red-400 mb-2">300,000+ €</div>
                                     <div className="text-white/80">Ukradeno samo na prozorima</div>
                                 </div>
@@ -148,7 +148,7 @@ export default function PVCProzoriPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Kako Kupiti PVC Prozore Sigurno?</h2>
-                        <div className="bg-green-500/10 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-green-950 p-6 rounded-lg border border-green-500/30">
                             <h3 className="text-xl font-bold text-green-400 mb-4">✓ Kontrolna Lista:</h3>
                             <ol className="space-y-3 text-white/80 text-lg list-decimal list-inside">
                                 <li><strong>Provjerite firmu</strong> - Koliko dugo postoji? Ima li fizičku poslovnicu?</li>
@@ -167,7 +167,7 @@ export default function PVCProzoriPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Crvene Zastavice Kod PVC Prozora</h2>
-                        <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                        <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                             <h3 className="text-xl font-bold text-red-400 mb-4">🚩 BJEŽITE AKO:</h3>
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li>• Cijena je 30%+ niža od konkurencije (predobro da bi bilo istinito)</li>
@@ -185,7 +185,7 @@ export default function PVCProzoriPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Što Učiniti Ako Ste Prevareni?</h2>
-                        <div className="bg-yellow-500/10 p-6 rounded-lg border border-yellow-500/30">
+                        <div className="bg-yellow-950 p-6 rounded-lg border border-yellow-500/30">
                             <ol className="space-y-3 text-white/80 text-lg list-decimal list-inside">
                                 <li><strong>Odmah prijavite policiji</strong> - Kaznena prijava za prijevaru</li>
                                 <li><strong>Dokumentirajte sve</strong> - Ugovor, poruke, dokazi plaćanja, fotografije</li>
@@ -200,26 +200,26 @@ export default function PVCProzoriPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Stranice</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/pvc-vrata" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/pvc-vrata" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">PVC Vrata</h3>
                                 <p className="text-white/70">Prevare s PVC vratima</p>
                             </Link>
-                            <Link href="/pvc-instalacije" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/pvc-instalacije" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">PVC Instalacije</h3>
                                 <p className="text-white/70">Prevare s instalacijama</p>
                             </Link>
-                            <Link href="/drazen-filjevic-prevara" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/drazen-filjevic-prevara" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Dražen Filjević Prevara</h3>
                                 <p className="text-white/70">Sve dokumentirane prevare</p>
                             </Link>
-                            <Link href="/prevara" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/prevara" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Prevara</h3>
                                 <p className="text-white/70">Opće informacije</p>
                             </Link>
                         </div>
                     </section>
 
-                    <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mt-12">
+                    <div className="bg-yellow-950 border border-yellow-500/30 rounded-lg p-6 mt-12">
                         <p className="text-white/90 text-center text-xl font-bold mb-2">
                             PODIJELITE - ZAŠTITITE DRUGE OD PREVARE S PVC PROZORIMA
                         </p>

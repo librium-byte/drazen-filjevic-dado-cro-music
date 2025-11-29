@@ -33,7 +33,7 @@ export default function ThermoFenPlastPage() {
                 </h1>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-red-400 mt-0">⚠️ UPOZORENJE</h2>
                         <p className="text-white/90 mb-0">
                             THERMO FEN PLAST j.d.o.o. je firma povezana s Damirom Iharošijem i Draženom Filjević em.
@@ -42,7 +42,7 @@ export default function ThermoFenPlastPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Podaci o Firmi</h2>
-                        <div className="bg-white/5 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-zinc-900 p-6 rounded-lg border border-green-500/30">
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li><strong className="text-green-400">Naziv:</strong> THERMO FEN PLAST j.d.o.o.</li>
                                 <li><strong className="text-green-400">Adresa:</strong> Brezovec Zelinski 3A, Brezovec Zelinski</li>
@@ -65,19 +65,19 @@ export default function ThermoFenPlastPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Osobe i Firme</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/damir-iharosi" className="block p-4 bg-red-900/50 rounded-lg border border-red-500/30">
+                            <Link href="/damir-iharosi" className="block p-4 bg-red-950 rounded-lg border border-red-500/30">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">👤 Damir Iharoši</h3>
                                 <p className="text-white/70">Povezana osoba</p>
                             </Link>
-                            <Link href="/drazen-filjevic" className="block p-4 bg-red-900/50 rounded-lg border border-red-500/30">
+                            <Link href="/drazen-filjevic" className="block p-4 bg-red-950 rounded-lg border border-red-500/30">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">👤 Dražen Filjević</h3>
                                 <p className="text-white/70">Glavni prevarant</p>
                             </Link>
-                            <Link href="/vrhunska-gradjevinska-stolarija" className="block p-4 bg-yellow-900/50 rounded-lg border border-yellow-500/30">
+                            <Link href="/vrhunska-gradjevinska-stolarija" className="block p-4 bg-yellow-950 rounded-lg border border-yellow-500/30">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">🏢 VRHUNSKA GRAĐEVINSKA STOLARIJA</h3>
                                 <p className="text-white/70">Prethodna firma</p>
                             </Link>
-                            <Link href="/porta-nova" className="block p-4 bg-yellow-900/50 rounded-lg border border-yellow-500/30">
+                            <Link href="/porta-nova" className="block p-4 bg-yellow-950 rounded-lg border border-yellow-500/30">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">🏢 PORTA NOVA</h3>
                                 <p className="text-white/70">Povezana firma</p>
                             </Link>

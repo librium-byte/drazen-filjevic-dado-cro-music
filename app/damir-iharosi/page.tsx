@@ -38,7 +38,7 @@ export default function DamirIharosiPage() {
                 </div>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-red-400 mt-0">⚠️ UPOZORENJE</h2>
                         <p className="text-white/90 mb-0">
                             Damir Iharoši je suradnik Dražena Filjevića u prijevarama kroz firmu THERMO FEN PLAST j.d.o.o.
@@ -47,7 +47,7 @@ export default function DamirIharosiPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Osnovni Podaci</h2>
-                        <div className="bg-white/5 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-zinc-900 p-6 rounded-lg border border-green-500/30">
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li><strong className="text-green-400">Ime i Prezime:</strong> Damir Iharoši</li>
                                 <li><strong className="text-green-400">Firma:</strong> THERMO FEN PLAST j.d.o.o.</li>
@@ -63,7 +63,7 @@ export default function DamirIharosiPage() {
                             THERMO FEN PLAST j.d.o.o. je jedna od novijih firmi u mreži prijevara Dražena Filjevića.
                             Firma se predstavlja kao specijalist za PVC stolariju, ali je dio poznate sheme prevara.
                         </p>
-                        <div className="bg-yellow-500/10 p-6 rounded-lg border border-yellow-500/30">
+                        <div className="bg-yellow-950 p-6 rounded-lg border border-yellow-500/30">
                             <h3 className="text-xl font-bold text-yellow-400 mb-3">Karakteristike Firme:</h3>
                             <ul className="space-y-2 text-white/80">
                                 <li>• Sjedište: Brezovec Zelinski 3A, Brezovec Zelinski</li>
@@ -80,7 +80,7 @@ export default function DamirIharosiPage() {
                             Damir Iharoši povezan je s Draženom Filjević em kroz THERMO FEN PLAST j.d.o.o.,
                             koja nastavlja isti obrazac prevara koji je Filjević koristio kroz druge firme.
                         </p>
-                        <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                        <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                             <h3 className="text-xl font-bold text-red-400 mb-3">Obrazac Prevara:</h3>
                             <ul className="space-y-2 text-white/80">
                                 <li>• Korištenje THERMO FEN PLAST za privlačenje novih kupaca</li>
@@ -107,7 +107,7 @@ export default function DamirIharosiPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Crvene Zastavice</h2>
-                        <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                        <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                             <h3 className="text-xl font-bold text-red-400 mb-4">🚩 Znakovi Upozorenja:</h3>
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li>• Povezanost s poznatim prevarantom (Dražen Filjević)</li>
@@ -121,7 +121,7 @@ export default function DamirIharosiPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Kako Se Zaštititi?</h2>
-                        <div className="bg-green-500/10 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-green-950 p-6 rounded-lg border border-green-500/30">
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li>✓ Provjerite vlasničku strukturu firme</li>
                                 <li>✓ Istražite povezanost s poznatim prevarantima</li>
@@ -137,26 +137,26 @@ export default function DamirIharosiPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Stranice</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/drazen-filjevic" className="block p-4 bg-white/5 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
+                            <Link href="/drazen-filjevic" className="block p-4 bg-zinc-900 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
                                 <h3 className="text-xl font-bold text-green-400 mb-2">Dražen Filjević</h3>
                                 <p className="text-white/70">Glavni prevarant</p>
                             </Link>
-                            <Link href="/thermo-fen-plast" className="block p-4 bg-white/5 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
+                            <Link href="/thermo-fen-plast" className="block p-4 bg-zinc-900 rounded-lg border border-yellow-500/30 hover:border-yellow-400 transition-colors">
                                 <h3 className="text-xl font-bold text-yellow-400 mb-2">THERMO FEN PLAST</h3>
                                 <p className="text-white/70">Informacije o firmi</p>
                             </Link>
-                            <Link href="/prevara" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/prevara" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Prevara</h3>
                                 <p className="text-white/70">Kako se zaštititi</p>
                             </Link>
-                            <Link href="/tamara-vukmanovic" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/tamara-vukmanovic" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Tamara Vukmanović</h3>
                                 <p className="text-white/70">Druga suradnica</p>
                             </Link>
                         </div>
                     </section>
 
-                    <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mt-12">
+                    <div className="bg-yellow-950 border border-yellow-500/30 rounded-lg p-6 mt-12">
                         <p className="text-white/90 text-center text-xl font-bold mb-0">
                             PODIJELITE - UPOZORITE DRUGE NA OVU MREŽU PREVARA
                         </p>

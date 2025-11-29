@@ -47,7 +47,7 @@ export default function DadoCroMusicPage() {
                 </div>
 
                 <div className="prose prose-invert prose-green max-w-none">
-                    <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-6 mb-8">
+                    <div className="bg-red-950 border border-red-500/30 rounded-lg p-6 mb-8">
                         <h2 className="text-2xl font-bold text-red-400 mt-0">⚠️ UPOZORENJE</h2>
                         <p className="text-white/90 mb-0">
                             "dado cro music" je online pseudonim koji koristi <strong>Dražen Filjević</strong>,
@@ -62,16 +62,16 @@ export default function DadoCroMusicPage() {
                             i raznim online platformama. Ovaj nadimak koristi za:
                         </p>
                         <ul className="space-y-3 text-white/80 text-lg">
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 🎵 <strong className="text-yellow-400">Predstavljanje kao glazbenik</strong> - Stvara privid legitimnosti
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 💼 <strong className="text-yellow-400">Poslovne kontakte</strong> - Uspostavljanje povjerenja s potencijalnim žrtvama
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 📱 <strong className="text-yellow-400">Društvene mreže</strong> - Facebook, Instagram i druge platforme
                             </li>
-                            <li className="bg-white/5 p-4 rounded-lg border border-yellow-500/30">
+                            <li className="bg-zinc-900 p-4 rounded-lg border border-yellow-500/30">
                                 🎭 <strong className="text-yellow-400">Alternativni identitet</strong> - Izbjegavanje negativnih recenzija
                             </li>
                         </ul>
@@ -79,7 +79,7 @@ export default function DadoCroMusicPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Zašto "cro music"?</h2>
-                        <div className="bg-white/5 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-zinc-900 p-6 rounded-lg border border-green-500/30">
                             <p className="text-white/80 text-lg leading-relaxed mb-4">
                                 Korištenje naziva "cro music" (Croatian music) služi za:
                             </p>
@@ -98,19 +98,19 @@ export default function DadoCroMusicPage() {
                             Dražen Filjević (dado cro music) aktivan je na različitim platformama:
                         </p>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <div className="bg-blue-500/10 p-6 rounded-lg border border-blue-500/30">
+                            <div className="bg-blue-950 p-6 rounded-lg border border-blue-500/30">
                                 <h3 className="text-xl font-bold text-blue-400 mb-2">📘 Facebook</h3>
                                 <p className="text-white/70">Profili pod imenom "dado cro music" i varijacijama</p>
                             </div>
-                            <div className="bg-pink-500/10 p-6 rounded-lg border border-pink-500/30">
+                            <div className="bg-pink-950 p-6 rounded-lg border border-pink-500/30">
                                 <h3 className="text-xl font-bold text-pink-400 mb-2">📸 Instagram</h3>
                                 <p className="text-white/70">Objave o glazbi i "lifestyle" sadržaju</p>
                             </div>
-                            <div className="bg-red-500/10 p-6 rounded-lg border border-red-500/30">
+                            <div className="bg-red-950 p-6 rounded-lg border border-red-500/30">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">🎥 YouTube</h3>
                                 <p className="text-white/70">Rijetke objave, uglavnom glazbeni sadržaj</p>
                             </div>
-                            <div className="bg-green-500/10 p-6 rounded-lg border border-green-500/30">
+                            <div className="bg-green-950 p-6 rounded-lg border border-green-500/30">
                                 <h3 className="text-xl font-bold text-green-400 mb-2">💬 WhatsApp/Viber</h3>
                                 <p className="text-white/70">Koristi za komunikaciju s klijentima</p>
                             </div>
@@ -119,7 +119,7 @@ export default function DadoCroMusicPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Kako Prepoznati "dado cro music" Online?</h2>
-                        <div className="bg-yellow-500/10 p-6 rounded-lg border border-yellow-500/30">
+                        <div className="bg-yellow-950 p-6 rounded-lg border border-yellow-500/30">
                             <h3 className="text-xl font-bold text-yellow-400 mb-4">🚩 Znakovi Upozorenja:</h3>
                             <ul className="space-y-3 text-white/80 text-lg">
                                 <li className="flex items-start gap-3">
@@ -148,7 +148,7 @@ export default function DadoCroMusicPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Stvarni Identitet</h2>
-                        <div className="bg-white/5 p-6 rounded-lg border border-red-500/30">
+                        <div className="bg-zinc-900 p-6 rounded-lg border border-red-500/30">
                             <div className="grid md:grid-cols-2 gap-6">
                                 <div>
                                     <h3 className="text-xl font-bold text-red-400 mb-3">Online Persona</h3>
@@ -175,23 +175,23 @@ export default function DadoCroMusicPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Tipičan Scenarij Prevare</h2>
                         <div className="space-y-4">
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-red-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-red-500">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Korak 1: Prvi Kontakt</h3>
                                 <p className="text-white/80">Kontaktira vas preko društvenih mreža ili odgovara na vaš upit za PVC prozore/vrata</p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-red-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-red-500">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Korak 2: Predstavljanje</h3>
                                 <p className="text-white/80">Predstavlja se kao "dado" ili "dado cro music", često spominje glazbu ili druge interese</p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-red-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-red-500">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Korak 3: Ponuda</h3>
                                 <p className="text-white/80">Nudi "posebne" cijene, brzu ugradnju, kvalitetne materijale</p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-red-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-red-500">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Korak 4: Avans</h3>
                                 <p className="text-white/80">Traži visok avans (50-100%) "za naručivanje materijala"</p>
                             </div>
-                            <div className="bg-white/5 p-6 rounded-lg border-l-4 border-red-500">
+                            <div className="bg-zinc-900 p-6 rounded-lg border-l-4 border-red-500">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Korak 5: Nestanak</h3>
                                 <p className="text-white/80">Nakon primanja novca, prestaje odgovarati. Blokira vas na društvenim mrežama</p>
                             </div>
@@ -200,7 +200,7 @@ export default function DadoCroMusicPage() {
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Što Učiniti Ako Ste Kontaktirani?</h2>
-                        <div className="bg-green-500/10 p-6 rounded-lg border border-green-500/30">
+                        <div className="bg-green-950 p-6 rounded-lg border border-green-500/30">
                             <ol className="space-y-3 text-white/80 text-lg list-decimal list-inside">
                                 <li><strong className="text-green-400">NE PLAĆAJTE</strong> nikakav avans bez provjere</li>
                                 <li><strong className="text-green-400">PROVJERITE</strong> identitet - tražite OIB, adresu firme, registraciju</li>
@@ -215,26 +215,26 @@ export default function DadoCroMusicPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-green-400 mb-4">Povezane Stranice</h2>
                         <div className="grid md:grid-cols-2 gap-4">
-                            <Link href="/drazen-filjevic" className="block p-4 bg-white/5 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
+                            <Link href="/drazen-filjevic" className="block p-4 bg-zinc-900 rounded-lg border border-green-500/30 hover:border-green-400 transition-colors">
                                 <h3 className="text-xl font-bold text-green-400 mb-2">Dražen Filjević</h3>
                                 <p className="text-white/70">Potpune informacije o osobi</p>
                             </Link>
-                            <Link href="/music-cro-dado" className="block p-4 bg-white/5 rounded-lg border border-blue-500/30 hover:border-blue-400 transition-colors">
+                            <Link href="/music-cro-dado" className="block p-4 bg-zinc-900 rounded-lg border border-blue-500/30 hover:border-blue-400 transition-colors">
                                 <h3 className="text-xl font-bold text-blue-400 mb-2">Music Cro Dado</h3>
                                 <p className="text-white/70">Varijacija online imena</p>
                             </Link>
-                            <Link href="/scam" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/scam" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Online Scam</h3>
                                 <p className="text-white/70">Kako prepoznati online prijevare</p>
                             </Link>
-                            <Link href="/prevara" className="block p-4 bg-white/5 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
+                            <Link href="/prevara" className="block p-4 bg-zinc-900 rounded-lg border border-red-500/30 hover:border-red-400 transition-colors">
                                 <h3 className="text-xl font-bold text-red-400 mb-2">Prevara</h3>
                                 <p className="text-white/70">Opće informacije o prijevarama</p>
                             </Link>
                         </div>
                     </section>
 
-                    <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-6 mt-12">
+                    <div className="bg-yellow-950 border border-yellow-500/30 rounded-lg p-6 mt-12">
                         <p className="text-white/90 text-center text-xl font-bold mb-2">
                             PODIJELITE DA DADO NE MOŽE VIŠE VARATI
                         </p>

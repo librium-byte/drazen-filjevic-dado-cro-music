@@ -90,7 +90,7 @@ export default function Home() {
               </h2>
 
               <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto">
-                <Link href="/tamara-vukmanovic" className="bg-red-900/80 border-2 border-red-500/50 rounded-lg p-6 hover:bg-red-800/80 transition-all block">
+                <Link href="/tamara-vukmanovic" className="bg-red-950 border-2 border-red-500/50 rounded-lg p-6 hover:bg-red-800/80 transition-all block">
                   <div className="flex items-start gap-4">
                     <div className="text-4xl">👤</div>
                     <div className="flex-1">
@@ -102,7 +102,7 @@ export default function Home() {
                   </div>
                 </Link>
 
-                <Link href="/unitec-international" className="bg-yellow-900/80 border-2 border-yellow-500/50 rounded-lg p-6 hover:bg-yellow-800/80 transition-all block">
+                <Link href="/unitec-international" className="bg-yellow-950 border-2 border-yellow-500/50 rounded-lg p-6 hover:bg-yellow-800/80 transition-all block">
                   <div className="flex items-start gap-4">
                     <div className="text-4xl">🏢</div>
                     <div className="flex-1">
@@ -113,7 +113,7 @@ export default function Home() {
                   </div>
                 </Link>
 
-                <Link href="/damir-iharosi" className="bg-red-900/80 border-2 border-red-500/50 rounded-lg p-6 hover:bg-red-800/80 transition-all block">
+                <Link href="/damir-iharosi" className="bg-red-950 border-2 border-red-500/50 rounded-lg p-6 hover:bg-red-800/80 transition-all block">
                   <div className="flex items-start gap-4">
                     <div className="text-4xl">👤</div>
                     <div className="flex-1">
@@ -125,7 +125,7 @@ export default function Home() {
                   </div>
                 </Link>
 
-                <Link href="/vrhunska-gradjevinska-stolarija" className="bg-yellow-900/80 border-2 border-yellow-500/50 rounded-lg p-6 hover:bg-yellow-800/80 transition-all block">
+                <Link href="/vrhunska-gradjevinska-stolarija" className="bg-yellow-950 border-2 border-yellow-500/50 rounded-lg p-6 hover:bg-yellow-800/80 transition-all block">
                   <div className="flex items-start gap-4">
                     <div className="text-4xl">🏢</div>
                     <div className="flex-1">
@@ -137,7 +137,7 @@ export default function Home() {
                   </div>
                 </Link>
 
-                <Link href="/vgs-fenster" className="bg-yellow-900/80 border-2 border-yellow-500/50 rounded-lg p-6 hover:bg-yellow-800/80 transition-all block">
+                <Link href="/vgs-fenster" className="bg-yellow-950 border-2 border-yellow-500/50 rounded-lg p-6 hover:bg-yellow-800/80 transition-all block">
                   <div className="flex items-start gap-4">
                     <div className="text-4xl">🏢</div>
                     <div className="flex-1">
@@ -148,7 +148,7 @@ export default function Home() {
                   </div>
                 </Link>
 
-                <Link href="/porta-nova" className="bg-yellow-900/80 border-2 border-yellow-500/50 rounded-lg p-6 hover:bg-yellow-800/80 transition-all block">
+                <Link href="/porta-nova" className="bg-yellow-950 border-2 border-yellow-500/50 rounded-lg p-6 hover:bg-yellow-800/80 transition-all block">
                   <div className="flex items-start gap-4">
                     <div className="text-4xl">🏢</div>
                     <div className="flex-1">
@@ -158,7 +158,7 @@ export default function Home() {
                   </div>
                 </Link>
 
-                <Link href="/thermo-fen-plast" className="bg-yellow-900/80 border-2 border-yellow-500/50 rounded-lg p-6 hover:bg-yellow-800/80 transition-all block">
+                <Link href="/thermo-fen-plast" className="bg-yellow-950 border-2 border-yellow-500/50 rounded-lg p-6 hover:bg-yellow-800/80 transition-all block">
                   <div className="flex items-start gap-4">
                     <div className="text-4xl">🏢</div>
                     <div className="flex-1">
@@ -228,7 +228,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-6">
             {/* VGS Fenster Images */}
-            <a href="/vgsfenster2.JPG" target="_blank" rel="noopener noreferrer" className="bg-white/5 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
+            <a href="/vgsfenster2.JPG" target="_blank" rel="noopener noreferrer" className="bg-zinc-900 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
               <div className="relative h-64">
                 <Image
                   src="/vgsfenster2.JPG"
@@ -243,7 +243,7 @@ export default function Home() {
               </div>
             </a>
 
-            <a href="/vgsfenster3.JPG" target="_blank" rel="noopener noreferrer" className="bg-white/5 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
+            <a href="/vgsfenster3.JPG" target="_blank" rel="noopener noreferrer" className="bg-zinc-900 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
               <div className="relative h-64">
                 <Image
                   src="/vgsfenster3.JPG"
@@ -258,7 +258,7 @@ export default function Home() {
               </div>
             </a>
 
-            <a href="/vgsfenster4.JPG" target="_blank" rel="noopener noreferrer" className="bg-white/5 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
+            <a href="/vgsfenster4.JPG" target="_blank" rel="noopener noreferrer" className="bg-zinc-900 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
               <div className="relative h-64">
                 <Image
                   src="/vgsfenster4.JPG"
@@ -274,7 +274,7 @@ export default function Home() {
             </a>
 
             {/* Thermo Fen Plast */}
-            <a href="/trebamhr-thermoplast-drazenfiljevic.PNG" target="_blank" rel="noopener noreferrer" className="bg-white/5 rounded-lg border border-yellow-500/30 overflow-hidden hover:border-yellow-400 transition-all block">
+            <a href="/trebamhr-thermoplast-drazenfiljevic.PNG" target="_blank" rel="noopener noreferrer" className="bg-zinc-900 rounded-lg border border-yellow-500/30 overflow-hidden hover:border-yellow-400 transition-all block">
               <div className="relative h-64">
                 <Image
                   src="/trebamhr-thermoplast-drazenfiljevic.PNG"
@@ -290,7 +290,7 @@ export default function Home() {
             </a>
 
             {/* Drazen Photos */}
-            <a href="/drazen filjevic2.JPG" target="_blank" rel="noopener noreferrer" className="bg-white/5 rounded-lg border border-green-500/30 overflow-hidden hover:border-green-400 transition-all block">
+            <a href="/drazen filjevic2.JPG" target="_blank" rel="noopener noreferrer" className="bg-zinc-900 rounded-lg border border-green-500/30 overflow-hidden hover:border-green-400 transition-all block">
               <div className="relative h-64">
                 <Image
                   src="/drazen filjevic2.JPG"
@@ -305,7 +305,7 @@ export default function Home() {
               </div>
             </a>
 
-            <a href="/drazenfiljevic3.JPG" target="_blank" rel="noopener noreferrer" className="bg-white/5 rounded-lg border border-green-500/30 overflow-hidden hover:border-green-400 transition-all block">
+            <a href="/drazenfiljevic3.JPG" target="_blank" rel="noopener noreferrer" className="bg-zinc-900 rounded-lg border border-green-500/30 overflow-hidden hover:border-green-400 transition-all block">
               <div className="relative h-64">
                 <Image
                   src="/drazenfiljevic3.JPG"
@@ -321,7 +321,7 @@ export default function Home() {
             </a>
 
             {/* More Evidence */}
-            <a href="/drazen-filjevic-prevara.png" target="_blank" rel="noopener noreferrer" className="bg-white/5 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
+            <a href="/drazen-filjevic-prevara.png" target="_blank" rel="noopener noreferrer" className="bg-zinc-900 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
               <div className="relative h-64">
                 <Image
                   src="/drazen-filjevic-prevara.png"
@@ -336,7 +336,7 @@ export default function Home() {
               </div>
             </a>
 
-            <a href="/drazen-filjevic-prevarant1.png" target="_blank" rel="noopener noreferrer" className="bg-white/5 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
+            <a href="/drazen-filjevic-prevarant1.png" target="_blank" rel="noopener noreferrer" className="bg-zinc-900 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
               <div className="relative h-64">
                 <Image
                   src="/drazen-filjevic-prevarant1.png"
@@ -351,7 +351,7 @@ export default function Home() {
               </div>
             </a>
 
-            <a href="/prevara-drazen-filjevic-cro-dado-music.png" target="_blank" rel="noopener noreferrer" className="bg-white/5 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
+            <a href="/prevara-drazen-filjevic-cro-dado-music.png" target="_blank" rel="noopener noreferrer" className="bg-zinc-900 rounded-lg border border-red-500/30 overflow-hidden hover:border-red-400 transition-all block">
               <div className="relative h-64">
                 <Image
                   src="/prevara-drazen-filjevic-cro-dado-music.png"
@@ -367,7 +367,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="mt-12 text-center bg-red-500/10 border border-red-500/30 rounded-lg p-6 max-w-3xl mx-auto">
+          <div className="mt-12 text-center bg-red-950 border border-red-500/30 rounded-lg p-6 max-w-3xl mx-auto">
             <p className="text-white/90 text-lg font-bold mb-2">
               ⚠️ UPOZORENJE ZA SVE KUPCE ⚠️
             </p>
