@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import LetterGlitch from '../components/LetterGlitch';
+import { DynamicLetterGlitch } from '../components/DynamicWrappers';
 import Footer from '../components/Footer';
 
 const geistSans = Geist({
@@ -118,7 +118,7 @@ export default function RootLayout({
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}>
         <div className="fixed inset-0 -z-10">
-          <LetterGlitch
+          <DynamicLetterGlitch
             glitchSpeed={50}
             centerVignette={true}
             outerVignette={false}

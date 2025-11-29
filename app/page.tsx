@@ -1,22 +1,16 @@
-"use client";
-
-import GlitchCounter from '../components/GlitchCounter';
+import { DynamicShareButton, DynamicGlitchCounter } from '../components/DynamicWrappers';
 import { PulsatingBadge } from '../components/PulsatingBadge';
-import { ShareButton } from '../components/ShareButton';
 import Image from 'next/image';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 
-const images = [
-  '/drazen-cro-dado-music.png',
-  '/drazen-filjevic-prevara.png',
-  '/drazen-filjevic-prevarant1.png',
-  '/prevara-drazen-filjevic-cro-dado-music.png',
-];
+// Dynamic imports for heavy client components
+const ImageMarquee = dynamic(() => import('../components/ImageMarquee'));
 
 export default function Home() {
   return (
     <div className="w-full">
-      <ShareButton />
+      <DynamicShareButton />
 
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center py-16 px-4 relative overflow-hidden">
@@ -27,11 +21,19 @@ export default function Home() {
               <p className="text-red-600 font-black text-7xl tracking-wider">PREVARANT</p>
             </div>
           </div>
-          <div className="absolute -right-4 top-32 rotate-12 opacity-70 pointer-events-none hidden lg:block z-0">
-            <div className="border-8 border-red-600 rounded-lg p-6 bg-red-600/20">
-              <p className="text-red-600 font-black text-7xl tracking-wider">PREVARANT</p>
+
+          {/* Right Top Image - User Request */}
+          <div className="absolute -right-4 top-32 rotate-12 opacity-90 pointer-events-none hidden lg:block z-0 w-64 h-64">
+            <div className="relative w-full h-full border-8 border-red-600 rounded-lg overflow-hidden bg-black/50">
+              <Image
+                src="/drazen-cro-dado-music.png"
+                alt="Dražen Filjević"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
+
           <div className="absolute left-10 bottom-20 rotate-6 opacity-60 pointer-events-none hidden lg:block z-0">
             <div className="border-8 border-red-600 rounded-lg p-6 bg-red-600/20">
               <p className="text-red-600 font-black text-6xl tracking-wider">PREVARANT</p>
@@ -59,23 +61,27 @@ export default function Home() {
 
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4">
-              <GlitchCounter
+              <DynamicGlitchCounter
                 value={130}
                 label="prevarenih ljudi"
                 className="hover:shadow-red-500/20 hover:border-red-400/50 h-full"
               />
-              <GlitchCounter
+              <DynamicGlitchCounter
                 value={12}
                 label="RAZLIČITIH FIRMI"
                 className="hover:shadow-yellow-500/20 hover:border-yellow-400/50 h-full"
               />
-              <GlitchCounter
-                value={20}
-                label="OSUDA ZA PRIJEVARU"
+
+              {/* User Request: Image in box instead of text */}
+              <DynamicGlitchCounter
+                value={0}
+                label=""
                 suffix=""
+                image="/drazen-cro-dado-music.png"
                 className="hover:shadow-pink-500/20 hover:border-pink-400/50 h-full"
               />
-              <GlitchCounter
+
+              <DynamicGlitchCounter
                 value={400000}
                 label="UKRADENO OD LJUDI"
                 suffix="+ €"
@@ -201,6 +207,7 @@ export default function Home() {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
+              loading="lazy"
               className="w-full h-full"
             ></iframe>
           </div>
@@ -220,7 +227,7 @@ export default function Home() {
 
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">
-            "Testimonials" Njegovih Firmi
+            Iskustva korisnika
           </h2>
           <p className="text-white/70 text-center mb-12 max-w-2xl mx-auto">
             Dokazi i slike iz njegovih "uspješnih" poslova
@@ -235,6 +242,7 @@ export default function Home() {
                   alt="VGS Fenster prevara"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="p-4">
@@ -250,6 +258,7 @@ export default function Home() {
                   alt="VGS Fenster dokumenti"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="p-4">
@@ -265,6 +274,7 @@ export default function Home() {
                   alt="VGS Fenster prevara dokaz"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="p-4">
@@ -281,6 +291,7 @@ export default function Home() {
                   alt="Thermo Fen Plast prevara"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="p-4">
@@ -297,6 +308,7 @@ export default function Home() {
                   alt="Dražen Filjević"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="p-4">
@@ -312,6 +324,7 @@ export default function Home() {
                   alt="Dražen Filjević dado"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="p-4">
@@ -328,6 +341,7 @@ export default function Home() {
                   alt="Dokaz prevare"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="p-4">
@@ -343,6 +357,7 @@ export default function Home() {
                   alt="Prevarant dokaz"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="p-4">
@@ -358,6 +373,7 @@ export default function Home() {
                   alt="Cro Dado Music prevara"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
               <div className="p-4">
@@ -379,52 +395,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Image Marquee */}
-      <section className="py-12 bg-black/50 backdrop-blur-sm w-full">
-        <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-8 px-4">
-          Galerija prevara
-        </h2>
-        <div className="relative w-full overflow-hidden">
-          <div className="marquee">
-            {[...images, ...images].map((img, index) => (
-              <div key={index} className="marquee-item">
-                <div className="w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 relative mx-2 md:mx-4">
-                  <Image
-                    src={img}
-                    alt={`Slika ${index + 1}`}
-                    fill
-                    className="object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
-                    sizes="(max-width: 768px) 12rem, (max-width: 1024px) 16rem, 20rem"
-                    priority={index < 4}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-        <style jsx>{`
-          .marquee {
-            display: flex;
-            width: max-content;
-            animation: scroll 40s linear infinite;
-          }
-          .marquee:hover {
-            animation-play-state: paused;
-          }
-          .marquee-item {
-            flex-shrink: 0;
-          }
-          @keyframes scroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(calc(-100% / 2)); }
-          }
-          @media (max-width: 768px) {
-            .marquee {
-              animation-duration: 30s;
-            }
-          }
-        `}</style>
-      </section>
+      <ImageMarquee />
     </div>
   );
 }

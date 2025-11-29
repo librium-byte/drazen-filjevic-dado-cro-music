@@ -45,11 +45,11 @@ export default function GlitchCounter({ value, label, suffix = '+', className = 
     const animate = () => {
       const now = Date.now();
       const progress = Math.min((now - startTime) / duration, 1);
-      
+
       // Easing function for smoother animation
       const easeOutQuad = (t: number) => t * (2 - t);
       const currentValue = Math.floor(easeOutQuad(progress) * (endValue - startValue) + startValue);
-      
+
       setDisplayValue(currentValue);
 
       if (progress < 1) {
@@ -62,28 +62,31 @@ export default function GlitchCounter({ value, label, suffix = '+', className = 
   }, [isInView, value]);
 
   return (
-    <div 
+    <div
       ref={counterRef}
       className={`group relative p-6 bg-black/30 backdrop-blur-sm rounded-lg border border-white/10 hover:border-cyan-400/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20 overflow-hidden ${className}`}
     >
-      <div className="relative z-10">
-        <div className="text-4xl md:text-5xl font-bold text-cyan-400 mb-2">
-          {displayValue.toLocaleString()}{suffix}
-        </div>
-        <div className="text-sm md:text-base text-gray-300">{label}</div>
-        {image && (
-          <div className="mt-4 w-16 h-16 mx-auto relative">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full">
+        {image ? (
+          <div className="w-full h-32 relative">
             <Image
               src={image}
-              alt={label}
+              alt={label || "Counter Image"}
               fill
               className="object-contain"
-              sizes="(max-width: 768px) 4rem, 4rem"
+              sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
+        ) : (
+          <>
+            <div className="text-4xl md:text-5xl font-bold text-cyan-400 mb-2">
+              {displayValue.toLocaleString()}{suffix}
+            </div>
+            <div className="text-sm md:text-base text-gray-300 uppercase tracking-wider font-bold">{label}</div>
+          </>
         )}
       </div>
-      
+
       {/* Glitch effect overlay */}
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/5 to-transparent"></div>

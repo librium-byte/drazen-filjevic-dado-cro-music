@@ -1,6 +1,6 @@
 # 🤡 Dražen Filjević "Dado CRO Music"- The Man, The Myth, The PVC Legend (Prevarant)
 
-**Službena fan stranica (i crna lista):** [https://dadocromusic.crnalista.online](https://dadocromusic.crnalista.online)
+**Službena fan stranica (i crna lista):** [https://dadocromusic.vercel.app](https://dadocromusic.vercel.app) [https://dadocromusic.crnalista.online](https://dadocromusic.crnalista.online)
 
 ![Dražen Filjević - Dado Cro Music](public/drazen-cro-dado-music.png)
 
