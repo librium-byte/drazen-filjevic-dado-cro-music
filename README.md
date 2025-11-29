@@ -1,8 +1,8 @@
-# 🤡 Dražen Filjević - The Man, The Myth, The PVC Legend (Prevarant)
+# 🤡 Dražen Filjević "Dado CRO Music"- The Man, The Myth, The PVC Legend (Prevarant)
 
 **Službena fan stranica (i crna lista):** [https://dadocromusic.crnalista.online](https://dadocromusic.crnalista.online)
 
-![Dražen Filjević - Dado Cro Music](https://dadocromusic.crnalista.online/drazen-cro-dado-music.png)
+![Dražen Filjević - Dado Cro Music](public/drazen-cro-dado-music.png)
 
 ## 🎭 Tko je ovaj "Poduzetnik"?
 
@@ -16,7 +16,7 @@ Evo ga, naš Dado, u elementu. Ponekad pjeva, ponekad prodaje maglu (i nepostoje
 
 | Dado u akciji | Još malo Dade |
 | :---: | :---: |
-| ![Dražen Filjević](https://dadocromusic.crnalista.online/drazen%20filjevic2.JPG) | ![Dado Cro Music](https://dadocromusic.crnalista.online/drazenfiljevic3.JPG) |
+| ![Dražen Filjević](public/drazen%20filjevic2.JPG) | ![Dado Cro Music](public/drazenfiljevic3.JPG) |
 
 ## 🏆 Njegova "Uspješna" Poduzeća (Firme za jednokratnu upotrebu)
 
@@ -38,10 +38,10 @@ Jer svaki Batman treba svog Robina (ili u ovom slučaju, svaki prevarant svoje p
 
 Pogledajte ove predivne recenzije i dokaze o "kvaliteti".
 
-![VGS Fenster Prevara](https://dadocromusic.crnalista.online/vgsfenster2.JPG)
+![VGS Fenster Prevara](public/vgsfenster2.JPG)
 *Slika: Umjetnička instalacija "Gdje su moji prozori?"*
 
-![Oglas na Trebam.hr](https://dadocromusic.crnalista.online/trebamhr-thermoplast-drazenfiljevic.PNG)
+![Oglas na Trebam.hr](public/trebamhr-thermoplast-drazenfiljevic.PNG)
 *Slika: Lov na nove žrtve na Trebam.hr*
 
 ## 📺 Video Kutak
